@@ -23,7 +23,7 @@ def manusearCentral():
     pyautogui.moveTo(300, 250,duration=0.5)
     pyautogui.click()
     time.sleep(2)
-    #Move o mouse para a matriz NICE
+    #Move o mouse para a matriz
     pyautogui.moveTo(550, 300,duration=0.5)
     pyautogui.click()
     time.sleep(2)
@@ -46,7 +46,7 @@ def open_central():
     pyautogui.press('enter')
     time.sleep(1)  
 
-# Loop sobre os endereços na matriz dados
+# Loop sobre os endereços na matriz
 for i in range(len(dados)):
     
     
